@@ -61,10 +61,10 @@ def get_location_by_ip(ip_address: str = None) -> dict:
     except Exception as e:
         logger.exception("IP定位查询异常")
         return {"status": "0", "info": f"查询异常: {str(e)}"}
-
+@mcp.tool()
 def get_weather_by_city(city: str, adcode: str = None) -> dict:
     """
-    根据城市名称获取天气信息
+    根据城市名称获取天气信息，询问城市天气如何时调用
     参数:
     - city: 城市名称
     - adcode: 城市编码（可选）
