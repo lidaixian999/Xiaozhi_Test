@@ -141,7 +141,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 本项目采用MIT许可证 - 详情请查看LICENSE文件。
 
-## Acknowledgments | 致谢
-
-- Thanks to all contributors who have helped shape this project | 感谢所有帮助塑造这个项目的贡献者
-- Inspired by the need for extensible AI capabilities | 灵感来源于对可扩展AI能力的需求
